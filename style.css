@@ -1,0 +1,175 @@
+@font-face{
+    font-family: bodyy;
+    src: url('simplee.otf');
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: bodyy;
+}
+.jete{
+    color: black;
+}
+.logoo{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+}
+.text_effects{
+    text-shadow: 3px 3px 2px grey;
+    transition: transform 3s linear;
+}
+.text_effects-2{
+    text-shadow: 2px 2px 1px grey;
+}
+@font-face{
+    font-family: kuchhbhi;
+    src: url('japaneese.ttf');
+}
+.font_about{
+    font-family: kuchhbhi;
+}
+.about_para{
+    column-count: 3;
+    column-gap: 50px;
+    text-align: justify;
+    column-rule: dashed;
+}
+.imgg{
+    border-radius: 20px;
+}
+.imgg2{
+    border-radius: 10px;
+}
+.batmanrun{
+	width: 100%;
+	height: 100px;
+	background-color: white;
+}
+.batmanrun img{
+	width: 110px;
+	height: 100px;
+	position:absolute;
+	left:0;
+	animation: batmanbhag 6s linear infinite;
+}
+@keyframes batmanbhag{
+	0%{
+	position:absolute;
+	left:0;
+	}
+	100%{
+	position:absolute;
+	left:90%;
+	}
+
+}
+
+.navbar-brand{
+    position: absolute;
+    left: 70px;
+    animation: aagepeechhe 3s linear infinite;
+    animation-direction: alternate;
+}
+@keyframes aagepeechhe{
+    0%{
+        position: absolute;
+        left: 70px;
+    }
+   100%{
+        position: absolute;
+        left: 130px;
+    }
+}
+.roundedd input{
+    width: 450px;
+    margin: auto;
+    border: 2px solid #3498db;
+    border-radius: 50px;
+    text-align: center;
+    transition: 0.25s;
+}
+.roundedd textarea{
+    width: 450px;
+    margin: auto;
+    border: 2px solid #3498db;
+    border-radius: 50px;
+    text-align: center;
+    transition: 0.25s;
+}
+.card{
+    box-shadow: 3px 3px 2px grey;
+}
+.roundedd input:focus{
+    width: 550px;
+    border-color: #2ecc71;
+}
+.roundedd textarea:focus{
+    width: 550px;
+    border-color: #2ecc71;
+}
+.joinn input{
+    width: 350px;
+    margin: auto;
+    border: 2px solid #3498db;
+    border-radius: 50px;
+    text-align: center;
+    transition: 0.25s;
+}
+.joinn input:focus{
+    width: 450px;
+    border-color: #2ecc71;
+}
+.joinn button{
+    margin: auto;
+}
+iframe{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 370px;
+    margin-top: 30px;
+}
+.linkss{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: #000;
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+    word-spacing: 5px;
+    letter-spacing: 2px;
+    font-weight: 900;
+    margin-left: -80px;
+}
+.headdd{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Dancing Script', cursive;
+    font-size: 33px;
+    font-weight: 900;
+    letter-spacing: 1px;
+    background-color: #4458dc; 
+}
+.mainn{
+    background-color: #c3f5ff; 
+}
+#bbr{
+    background-color: #4458dc;
+}
+#bbrr{
+    background-color: #4458dc;
+}
+#brr{
+    background-color: #4458dc;
+}
+.text_effects{
+    text-shadow: 3px 3px 2px grey;
+    transition: transform 3s linear;
+}
+.text_effects:hover{
+    transform: perspective(200px) rotateY(360deg);
+}

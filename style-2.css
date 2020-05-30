@@ -1,0 +1,204 @@
+*{margin: 0; padding: 0; }
+header{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(to left, #fff 85%, #c3f5ff 20%);
+}
+.navsection{
+    width: 100%; height: 20vh; 
+    display: flex; justify-content: space-around;
+    align-items: center;
+    font-family: 'Oswald', sans-serif;
+    background-image: linear-gradient(to top, #fff 80%, #c3f5ff 20%);
+}
+.logo{
+    width: 40%;
+    color: #fff;
+    background-image: linear-gradient(#8d98e3 40%, #854fee 60%);
+    padding-left: 100px;
+    box-sizing: border-box;
+    border-radius: 0% 4% 0% 4% / 0% 50% 0% 50% ;
+}
+.logo h1{
+    text-transform: uppercase;
+    font-size: 1.6rem;
+    animation: aagepeechhe 2s linear infinite;
+    animation-direction: alternate;
+}
+@keyframes aagepeechhe{
+    from{padding-left: 40px;}
+    to{padding-right: 40px;}
+}
+nav{
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+}
+nav a{
+    color: #000;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 14px;
+    text-align: center;
+    padding: 12px 25px;
+    cursor: pointer;
+    text-transform: uppercase;
+    border-radius: 0% 15% 0% 15% / 0% 51% 0% 51%;
+    display: inline-block;
+    letter-spacing: 0;
+    transition: 0.3s  linear;
+}
+nav a:first-child{
+    color: #4458dc;
+    text-decoration: underline;
+    overflow: hidden;
+    transition: 0.2s;
+}
+nav a:hover{
+    background-image: none;
+    background-color: #4458dc;
+    color: #fff;
+}
+main{
+    height: 80vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.rightside{
+    border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+    background-color: #c3f5ff;
+}
+.rightside img{
+    max-width: 400px;
+    height: auto;
+}
+.leftside{
+    color: #000;
+    margin-right: 33px;
+    margin-bottom: 1.5em;
+}
+.leftside h3{
+    font-size: 40px;
+    margin-bottom: 20px;
+    position: relative;
+    text-decoration: none;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Galada', cursive;
+    font-family: 'Righteous', cursive;
+    font-family: 'Fredoka One', cursive;
+}
+.leftside h3:after{
+    content: "";
+    width: 450px;
+    height: 3px;
+    position: absolute;
+    top: 43%;
+    left: 22%;
+    background: #000;
+}
+.leftside h1{
+    margin-top: 20px;
+    font-size: 70px;
+    margin-bottom: 25px;
+    text-decoration: none;
+    font-family: 'Dancing Script', cursive;
+}
+.leftside h2{
+    margin-bottom: 35px;
+    font-weight: 500;
+    word-spacing: 4px;
+    text-decoration: none;
+    font-family: 'Caveat', cursive;
+}
+.leftside .btn1{
+    text-decoration: none;
+    font-family: 'Caveat', cursive;
+    font-weight: 600;
+    font-size: 14px;
+    text-align: center;
+    padding: 12px 25px;
+    cursor: pointer;
+    text-transform: uppercase;
+    border-radius: 5px;
+    display: inline-block;
+    margin-right: 50px;
+    color: #fff;
+    letter-spacing: 0;
+    background-image: linear-gradient(to right, #4458dc 0%, #854fee 100%);
+    border: double 2px transparent;
+    box-shadow: 0 10px 30px rgba(118, 85, 225, .3);
+    transition: 0.3s linear;
+}
+.leftside .btn2{
+    text-decoration: none;
+    font-family: 'Caveat', cursive;
+    font-weight: 900;
+    font-size: 14px;
+    text-align: center;
+    padding: 12px 25px;
+    cursor: pointer;
+    text-transform: uppercase;
+    border-radius: 5px;
+    display: inline-block;
+    margin-right: 50px;
+    border: 2px solid #4458dc;
+    color: #222;
+    background-color: #fff;
+    box-shadow: none;
+    transition: 0.3s linear;
+}
+.leftside .btn2:hover{
+    background-image: none;
+    background-color: #4458dc;
+    color: #fff;
+}
+.leftside .btn1:hover{
+    border: 2px solid #4458dc;
+    color: #222;
+    background-color: #fff;
+    box-shadow: none;
+    background-image: none;
+}
+iframe{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 370px;
+    margin-top: 30px;
+}
+.linkss{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: #000;
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+    word-spacing: 5px;
+    letter-spacing: 2px;
+    font-weight: 900;
+    margin-left: -80px;
+}
+.headdd{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Dancing Script', cursive;
+    font-size: 33px;
+    font-weight: 900;
+    letter-spacing: 1px;
+    background-color: #4458dc; 
+}
+.mainn{
+    background-color: #c3f5ff; 
+}
+#bbr{
+    background-color: #4458dc;
+}
+#bbrr{
+    background-color: #4458dc;
+}
+#brr{
+    background-color: #4458dc;
+}
